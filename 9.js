@@ -3,6 +3,7 @@ function isPalindrome(num){
     if(num<0){
         return false
     }
+
     let str = num.toString()
     let left = 0
     let right =str.length-1
@@ -13,5 +14,7 @@ function isPalindrome(num){
         left++
         right--
     }
+
     return true
+    
 }
